@@ -1,11 +1,22 @@
 .head{
   color:white;
   border: 3px solid white;
+}
 
 
+.test{
+  color:white;
+}
+
+.temp{
+  color: white;
+  font-size: 55px
 }
 
 .body{
+  background-image: url(earth1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   background-color: black;
 }
 
@@ -13,13 +24,46 @@
   color:white;
   border: 3px solid white;
   font-family: sans-serif;
-  background-color: black;
+  background-color: transparent;
   border-radius: 0px;
   align-content: center;
+  padding: 5px;
 }
 
 #navbar{
-  background: -webkit-linear-gradient(white, transparent);
+  background: -webkit-linear-gradient(white,transparent, transparent);
   border-radius: 0px;
   color:red
+}
+
+.row{
+  text-align: center;
+  margin:40px;
+}
+
+#temp{
+  color:white;
+
+}
+
+#get-weather{
+  color:white;
+  border: 3px solid white;
+  font-family: sans-serif;
+  background-color: transparent;
+  border-radius: 0px;
+  align-content: center;
+  padding: 5px;
+}
+
+.form-group{
+  color:white;
+  border: 3px solid white;
+  background-color: transparent;
+  width:20%;
+
+}
+
+.form-control{
+  background-color: transparent;
 }
